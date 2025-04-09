@@ -67,6 +67,6 @@ Citizen.CreateThread(function()
     
     while true do
         DrawWatermark()
-        Citizen.Wait(0) -- Update every frame for smooth effects
+        Citizen.Wait(5) -- Keep below 8
     end
 end)

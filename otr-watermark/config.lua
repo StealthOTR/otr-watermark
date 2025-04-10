@@ -10,7 +10,7 @@ OTR = {}
 
 -- General Settings
 OTR.Enabled = true -- Enable or disable the watermark
-OTR.UpdateInterval = 1000 -- in milliseconds  (150ms is optimized without sacrificing the looks of the RGB shift)
+OTR.UpdateInterval = 100 -- in milliseconds  (100ms is optimized without sacrificing the looks of the RGB shift)
 
 -- Text Settings
 OTR.Text = "{servername} | Players: {players}/{maxPlayers} | Staff: {staff}" -- The text to display
